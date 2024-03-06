@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+
+header {
+    background-color: red;
+    height: 25px;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 25px);
+}
+
+.sidebar {
+    background-color: blue;
+    width: 9%;
+}
+
+.content {
+    background-color: aqua;
+    width: 100%;
+
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); 
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #4C67F1;
+    font-weight: bold;
+}
+.text-muted {
+    color: #8e8e8e;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.left {
+    padding: 48px 0 0 48px
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+.right, form{
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+   
+}
+
+form{
+    width: 260px;
+}
+
+form input {
+    height: 32px;
+    border-radius: 12px;
+    padding-left: 6px;
+    border: 1.75px solid #a39d9d;
+}
+
+.forgot-pass {
+    display: flex;
+    justify-content: end;
+}
+
+form button {
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4460F1;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.social-media-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(260px + 96px); 
+   
+}
+.or {
+    width:260px;
+    display: flex;
+    justify-content: center;
+    
+}
+.social-media-login span {
+    font-size: 14px;
+}
+
+.social-media-login button {
+    border: 1px solid #a39d9d;
+    border-radius: 12px;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 48px;
+    
+}
+
+.social-media-login img {
+    padding: 0 12px;
+    height: 30px;
+    width: 40px
+}
+
+.mt-14 {
+    margin-top: 14px;
+}
+.mt-28 {
+    margin-top: 28px;
+}

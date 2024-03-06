@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+header {
+    background-color: red;
+    height: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    height: calc(100vh - 25px);
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+.content {
+    background-color: aqua;
+
+}
